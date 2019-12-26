@@ -15,4 +15,25 @@
 deco_time=2
 deco_line='####################################################'
 ###############
+function user_menu() {
+echo $deco_line
+echo "Welcome to Artifactory Automatic Installer!"
+echo $deco_line
+echo "1. Install Artifactory RPM "
+echo "2. Install Artifactory DEB "
+echo "3. I don't know which version to choose. "
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+user_menu
